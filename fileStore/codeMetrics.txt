@@ -1,0 +1,17 @@
+Metric						 	Count  
+Number of Java Projects			72 
+Number of Lines				 	5404 
+Number of Classes				82 
+Number of Abstract Class		115 
+Number of Interface				3
+Number of Library				166 
+Number of Public Function		194 
+Number of Private Function		28 
+Number of Constant Variable		21 
+Number of Private Variable		44 
+Number of Public Variable		12 
+Number of Default Variables		165 
+Number of Protected Function	7
+
+
+

@@ -1,0 +1,44 @@
+/*private String[] groupItem = {"Customer","Retailer","Wholesaler"}
+private ActionBarDrawerToggle mDrawerToggle
+private Button AddNewProductButton
+private Button create, button_location
+private Button joinNowButton, loginButton, navbartestButton
+private Button login
+private Context context
+private DatabaseReference ProductsRef, UserData, Quantdata
+private DatabaseReference ProductsRef,Quantityref,dbref,imageref
+private DrawerLayout mDrawerLayout
+private EditText InputName, InputPhoneNumber, InputPassword, ConfirmPassword, EmailID
+private EditText iptn1, iptn2, iptn3, iptn4, iptn5, iptn6
+private ExpandableListAdapter adapter
+private ExpandableListView expandableListView
+private FragmentManager mFragmentManager
+private ImageView InputProductImage
+private LinearLayout toplayout
+private List<String> listTitle
+private List<String> lstTitle
+private Map<String,List<String>> listItem
+private Map<String,List<String>> lstChild
+private NavigationBar mainActivity
+private NavigationManager navigationManager
+private Spinner UserType
+private Spinner product_type
+private StorageReference ProductImagesRef
+private String mActivityTitle
+private String mParam1
+private String mParam2
+private String quantity, Price, Pname, p_username, nkey, category, temp_quantity
+private String quantity,Price,Pname, downloadImageUrl,category,p_username,latitude,longitude
+private String user_type
+private String verificationId
+private String[] items
+private String[][] childItem = {{"Categories","Cart","orders","logout"},{"Categories","Cart","orders","add item","logout"},
+private TextView Longitude_tfield, Latitude_tfield
+private TextView eventText, timeAndDateText
+private TextView pname , pquantity , pprice
+private TextView pname, pquantity, pprice
+private TextView t_username, t_password
+private Uri ImageUri
+private static DatabaseClass INSTANCE
+private static FragmentNavigationManager mInstance
+private static String p_username

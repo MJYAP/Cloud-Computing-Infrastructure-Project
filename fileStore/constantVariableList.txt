@@ -1,0 +1,21 @@
+//        final Button setotp = findViewById(R.id.verify_otp);
+//        final ProgressBar progressBar1 = findViewById(R.id.progressbar_sendotp);
+final Button buttonVerify = findViewById(R.id.verify_otp);
+final DatabaseReference orders_Reference = rootref.child("User").child(user_type).child(username).child("Details");
+final EditText inputMobile = findViewById(R.id.phone_number);
+final FirebaseDatabase database = FirebaseDatabase.getInstance();
+final ProgressBar progressBar = findViewById(R.id.progressbar_verifyotp);
+final StorageReference filePath = ProductImagesRef.child(ImageUri.getLastPathSegment() + ".jpg");
+final UploadTask uploadTask = filePath.putFile(ImageUri);
+private static final String ARG_PARAM1 = "param1";
+private static final String ARG_PARAM2 = "param2";
+private static final String KEY_TITLE = "Content";
+private static final int GalleryPick = 1;
+protected void onBindViewHolder(@NonNull myviewholder holder, int position, @NonNull final Orders_sub model) {
+protected void onBindViewHolder(@NonNull myviewholder holder, int position, @NonNull final RetailerShopModel model) {
+protected void onBindViewHolder(@NonNull myviewholder holder, int position, @NonNull final TransModel_sub model) {
+protected void onBindViewHolder(@NonNull myviewholder holder, int position, @NonNull final model_category model) {
+protected void onBindViewHolder(@NonNull myviewholder holder, int position, @NonNull final model_items_cat model) {
+protected void onBindViewHolder(@NonNull myviewholder holder, int position, @NonNull final model_shop model) {
+protected void onBindViewHolder(@NonNull myviewholder holder, int position, @NonNull final model_subcategory model) {
+public static DatabaseClass getDatabase(final Context context) {

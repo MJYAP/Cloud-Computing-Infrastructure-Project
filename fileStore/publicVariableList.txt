@@ -1,0 +1,12 @@
+public  String cust_uid = "M"
+public String arg_cat,arg_pname,p_username,p_usertype, dist_temp,parent_usertype
+public String fbtext="NO"
+public String p_username, p_usertype
+public String source
+public String uid
+public double cutoffDist
+public double cutoffDistance
+public int quantity
+public int quantityDemand
+public static String usertyp
+public static int n=0
